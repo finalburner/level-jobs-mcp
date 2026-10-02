@@ -1,0 +1,19 @@
+{
+  "name": "level-jobs-mcp",
+  "version": "1.0.0",
+  "description": "MCP server (stdio) for Level's public AI-level-rated job catalog (L1-L4): search jobs, get job details, look up the AI level of a job title. Read-only, no API key.",
+  "type": "module",
+  "bin": { "level-jobs-mcp": "index.mjs" },
+  "main": "index.mjs",
+  "files": ["index.mjs", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "keywords": ["mcp", "model-context-protocol", "jobs", "ai-jobs", "job-search", "claude"],
+  "homepage": "https://jobsbylevel.com/developers",
+  "repository": { "type": "git", "url": "git+https://github.com/finalburner/level-jobs-mcp.git" },
+  "bugs": { "url": "https://github.com/finalburner/level-jobs-mcp/issues" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^4.5.4"
+  }
+}
